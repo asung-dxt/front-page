@@ -1,0 +1,21 @@
+footer {
+  min-width: 1230px;
+  background: #111;
+  font-size: 14px;
+}
+
+.footer-nav > ul > li > a {
+  display: block;
+  position: relative;
+}
+
+.footer-nav > ul > li:not(:first-of-type) > a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 14px;
+  top: 4px;
+  left: -10px;
+  background-color: rgba(255,255,255,.2);
+}

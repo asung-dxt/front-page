@@ -1,0 +1,31 @@
+@import url('./main.css');
+@import url('./header.css');
+@import url('./footer.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+}
+
+a {text-decoration:none!important;}
+
+ul, ol, li {list-style:none;}
+
+.container {
+  min-width: 1230px;!important;
+  max-width:none!important;
+}
+
+:root {
+  --bs-primary: #3617ce !important;
+  --bs-primary-rgb: 54,23,206 !important;
+  --bs-secondary: #f5f5f5 !important;
+  --bs-secondary-rgb: 245,245,245 !important;
+  --bs-info: #666 !important;
+  --bs-info-rgb: 102,102,102 !important;;
+  --bs-dark: #e6e6e6; !important;
+  --bs-dark-rgb: 230,230,230 !important;;
+  --bs-border-radius: 1.5rem !important;
+}

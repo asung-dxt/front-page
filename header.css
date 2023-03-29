@@ -1,0 +1,33 @@
+.header-logo {
+  height: 22px;
+  display: block;
+  background: url(/images/logo.png) no-repeat 0 50%;
+  background-size: contain;
+}
+
+.header-nav-icon:first-child a {
+  width: 154px;
+}
+
+.header-nav-icon a {
+  display: block;
+  position: relative;
+  width: 62px;
+  height: 62px;
+}
+
+.header-nav-icon:not(:first-of-type) a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  top: 22px;
+  left: 0;
+  background-color:#e6e6e6;
+}
+
+.header-nav-icon .enterprise {background: url(/images/top_enterpise.png) no-repeat 0 50%/154px;}
+.header-nav-icon .tworld {background: url(/images/top_tworld.png) no-repeat 50% 50%;}
+.header-nav-icon .search {background: url(/images/top_search.png) no-repeat 50% 50%;}
+.header-nav-icon .my {background: url(/images/top_my.png) no-repeat 50% 50%;}
